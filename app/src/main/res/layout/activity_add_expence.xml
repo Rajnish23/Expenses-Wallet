@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.suryavanshi.expenseswallet.Activities.AddExpenceActivity">
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_250"
+        android:orientation="vertical"
+        android:background="@color/primaryBlue"
+        android:id="@+id/ll_top_expence_layout">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ic_close"
+                android:layout_width="@dimen/_35"
+                android:layout_height="@dimen/_40"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginLeft="@dimen/_10"
+                android:src="@mipmap/ic_close" />
+            <ImageView
+                android:layout_width="@dimen/_40"
+                android:layout_height="@dimen/_40"
+                android:src="@mipmap/ic_delete"
+                android:id="@+id/delete"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginRight="@dimen/_10"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arvo"
+            android:text="@string/date"
+            android:textColor="@color/lightYellow"
+            android:layout_marginLeft="@dimen/_50"
+            android:textSize="@dimen/_15s"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/select_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_10"
+            android:layout_marginTop="@dimen/_5"
+            android:layout_marginLeft="@dimen/_50"
+            android:backgroundTint="@color/lightYellow"
+            android:clickable="true"
+            android:focusable="false"
+            android:textColor="@android:color/white"
+            tools:text="Today" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10"
+            android:fontFamily="@font/arvo"
+            android:text="@string/amount"
+            android:layout_marginLeft="@dimen/_50"
+            android:textColor="@color/lightYellow"
+            android:textSize="@dimen/_15s"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/expence_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_10"
+            android:layout_marginTop="@dimen/_10"
+            android:layout_marginLeft="@dimen/_50"
+            android:backgroundTint="@color/lightYellow"
+            android:drawableLeft="@mipmap/white_indian_rupee"
+            android:hint="@string/enter_amount"
+            android:inputType="number"
+            android:focusable="false"
+            android:textColor="@android:color/white"
+            android:textColorHint="#f5f5f5"
+            android:textCursorDrawable="@color/lightYellow"
+            android:textSize="@dimen/_20s" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/amount_can_t_be_empty"
+            android:textColor="@color/lightYellow"
+            android:layout_marginTop="@dimen/_5"
+            android:id="@+id/amount_empty"
+            android:layout_marginLeft="@dimen/_50"
+            android:visibility="gone"
+           />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/amount_too_large"
+          android:textColor="@color/lightYellow"
+          android:layout_marginTop="@dimen/_5"
+          android:id="@+id/amount_large"
+          android:layout_marginLeft="@dimen/_50"
+          android:visibility="gone"
+          />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/category"
+                android:layout_marginLeft="@dimen/_50"
+                android:textSize="@dimen/_15s"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_50"
+                android:layout_marginRight="@dimen/_10">
+                <ImageView
+                    android:layout_width="@dimen/_35"
+                    android:layout_height="@dimen/_35"
+                    android:src="@mipmap/ic_cat"
+                    android:layout_gravity="center"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10"
+                    android:layout_marginRight="@dimen/_10"
+                    android:layout_marginBottom="@dimen/_10"
+                    android:backgroundTint="@android:color/black"
+                    android:textSize="@dimen/_18s"
+                    android:focusable="false"
+                    android:clickable="true"
+                    android:inputType="textMultiLine"
+                    android:id="@+id/selectCategory"/>
+
+
+
+            </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category_cannot_be_empty"
+            android:layout_marginLeft="@dimen/_50"
+            android:textColor="@color/primaryGray"
+            android:visibility="gone"
+            android:id="@+id/empty_category"
+            android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note"
+                android:layout_marginTop="@dimen/_10"
+                android:layout_marginLeft="@dimen/_50"
+                android:textSize="@dimen/_15s"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_10"
+                android:layout_marginLeft="@dimen/_50">
+                <ImageView
+                    android:layout_width="@dimen/_35"
+                    android:layout_height="@dimen/_35"
+                    android:src="@mipmap/ic_note"
+                    android:layout_gravity="center"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10"
+                    android:layout_marginRight="@dimen/_10"
+                    android:layout_marginBottom="@dimen/_10"
+                    android:backgroundTint="@android:color/black"
+                    android:textSize="@dimen/_18s"
+                    android:hint="@string/optional"
+                    android:inputType="textMultiLine"
+                    android:id="@+id/note"/>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="@dimen/_10"
+                android:layout_marginRight="@dimen/_20"
+                android:layout_marginBottom="@dimen/_10"
+                android:background="@drawable/btn_yellow_background"
+                android:id="@+id/save"
+                android:elevation="@dimen/_5"
+                android:text="@string/save" />
+        </LinearLayout>
+</LinearLayout>

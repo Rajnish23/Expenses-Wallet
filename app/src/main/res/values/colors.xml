@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1a87db</color>
+    <color name="colorPrimaryDark">#005ba9</color>
+    <color name="colorAccent">#1a87db</color>
+
+    <color name="lightGray">#eeeeee</color>
+    <color name="lightYellow">#ffff4f</color>
+
+    <color name="primaryBlue">#1e88e5</color>
+    <color name="primaryDarkBlue">#1565c0</color>
+
+    <color name="primaryRed">#ff4638</color>
+    <color name="primaryDarkRed">#d32f2f</color>
+
+    <color name="primaryPink">#ff4081</color>
+    <color name="primaryDarkPink">#f92b71</color>
+
+    <color name="primaryPurple">#ab47bc</color>
+    <color name="primaryDarkPurple">#9c40aa</color>
+
+    <color name="primaryJamun">#7c4dff</color>
+    <color name="primaryDarkJamun">#6c45e5</color>
+
+    <color name="primarySlateBlue">#5c6bc0</color>
+    <color name="primaryDarkSlateBlue">#5060bf</color>
+
+    <color name="primaryLightBlue">#64b5f6</color>
+    <color name="primaryDarkLightBlue">#42a5f5</color>
+
+    <color name="primaryLightCream">#4dd0e1</color>
+    <color name="primaryDarkLightCream">#26c6da</color>
+
+    <color name="primaryWallGreen">#00bfa5</color>
+    <color name="primaryDarkWallGreen">#00a891</color>
+
+    <color name="primaryParotGreen">#00c853</color>
+    <color name="primaryDarkParotGreen">#00bf4f</color>
+
+    <color name="primaryParotLightGreen">#cddc39</color>
+    <color name="primaryDarkParotLightGreen">#99aa00</color>
+
+    <color name="primaryOrange">#ff5722</color>
+    <color name="primaryDarkOrange">#c41c00</color>
+
+    <color name="primaryGrayBlue">#00838f</color>
+    <color name="primaryDarkGrayBlue">#005662</color>
+
+    <color name="primaryBrown">#4e342e</color>
+    <color name="primaryDarkBrown">#260e04</color>
+
+    <color name="primaryPilot">#303f9f</color>
+    <color name="primaryDarkPilot">#001970</color>
+
+    <color name="primaryGray">#78909c</color>
+    <color name="primaryDarkGray">#4b636e</color>
+
+
+</resources>

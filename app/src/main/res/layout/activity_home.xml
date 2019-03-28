@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/home_activity_background_gradient"
+    tools:context="com.suryavanshi.expenseswallet.Activities.HomeActivity">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="@dimen/_10"
+               android:layout_marginRight="@dimen/_10"
+               android:id="@+id/home_activity_header">
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   tools:text="@string/Title"
+                   android:id="@+id/title_date"
+                   android:textColor="@android:color/white"
+                   android:layout_centerVertical="true"
+                   android:textSize="14sp"
+                   android:layout_marginLeft="@dimen/_10"
+                   android:textStyle="bold"
+                   android:layout_marginStart="@dimen/_10" />
+               <ImageView
+                   android:layout_width="@dimen/_30"
+                   android:layout_height="@dimen/_30"
+                   android:src="@mipmap/ic_settings"
+                   android:id="@+id/ic_setting"
+                   android:layout_alignParentRight="true"
+                   android:layout_marginTop="@dimen/_10"
+                   android:layout_marginRight="@dimen/_10"
+                   android:layout_marginBottom="@dimen/_10"
+                   android:layout_alignParentEnd="true"
+                   android:layout_marginEnd="@dimen/_10" />
+           </RelativeLayout>
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/main_container"
+               android:layout_below="@id/home_activity_header">
+
+           </FrameLayout>
+           <com.getbase.floatingactionbutton.FloatingActionsMenu
+               android:id="@+id/multiple_actions_left"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentRight="true"
+               app:fab_addButtonColorNormal="@color/colorPrimaryDark"
+               app:fab_addButtonColorPressed="@android:color/white"
+               app:fab_addButtonSize="normal"
+               app:fab_addButtonPlusIconColor="@android:color/white"
+               app:fab_addButtonStrokeVisible="false"
+               app:fab_expandDirection="up"
+               app:fab_labelStyle="@style/menu_labels_style"
+               app:fab_labelsPosition="left"
+               android:layout_marginRight="10dp"
+               android:layout_marginBottom="10dp">
+
+               <com.getbase.floatingactionbutton.FloatingActionButton
+                   android:id="@+id/all_expense"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   app:fab_title="@string/all_expenses"
+                   app:fab_icon="@mipmap/ic_list"
+                   app:fab_colorNormal="@color/colorPrimaryDark"
+                   app:fab_colorPressed="@android:color/white"
+                   app:fab_size="normal"/>
+
+               <com.getbase.floatingactionbutton.FloatingActionButton
+                   android:id="@+id/cash_spend"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   app:fab_title="@string/add_cash_spend"
+                   app:fab_icon="@mipmap/ic_pay"
+                   app:fab_colorNormal="@color/colorPrimaryDark"
+                   app:fab_colorPressed="@android:color/white"
+                   app:fab_size="normal"/>
+
+
+
+           </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+       </RelativeLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+
+
+</android.support.v4.widget.DrawerLayout>

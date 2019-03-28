@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_user_profile"
+        app:civ_border_color="@android:color/white"
+        app:civ_border_width="@dimen/_1"
+        android:layout_centerVertical="true"
+        android:id="@+id/user_profile"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Rajnish Suryavanshi"
+            android:textColor="@android:color/white"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:id="@+id/user_name"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:id="@+id/gsign_in"
+        android:layout_marginRight="@dimen/_10"
+        android:background="@drawable/semicircle">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10"
+            android:src="@mipmap/ic_google"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_18s"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="@dimen/_10"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="@dimen/_40"
+        android:layout_height="@dimen/_40"
+        android:id="@+id/ic_logout"
+        android:layout_marginTop="@dimen/_10"
+        android:layout_marginRight="@dimen/_5"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:src="@mipmap/ic_logout"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:id="@+id/user_mail_id"
+        tools:text="rajnishsuryavanshi223@gmail.com"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_10"
+        android:layout_marginLeft="@dimen/_20"/>
+</RelativeLayout>

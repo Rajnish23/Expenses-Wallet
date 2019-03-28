@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Expenses Wallet</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="category_name">Category Name</string>
+    <string name="enter_category_name">Enter Category Name !</string>
+    <string name="category_already_added">Category Already Added!</string>
+    <string name="choose_color">Choose color</string>
+    <string name="date">Date</string>
+    <string name="amount">Amount</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="amount_can_t_be_empty">Amount can\'t be empty</string>
+    <string name="amount_too_large">Amount too Large!</string>
+    <string name="category">Category</string>
+    <string name="category_cannot_be_empty">Category cannot be Empty!</string>
+    <string name="note">Note</string>
+    <string name="optional">Optional</string>
+    <string name="save">Save</string>
+    <string name="all_expenses">All Expenses</string>
+    <string name="Title">Saturday, December 1</string>
+    <string name="add_cash_spend">Add Cash Spend</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_0">0</string>
+    <string name="_00">00</string>
+    <string name="clear">CLEAR</string>
+    <string name="cancel">CANCEL</string>
+    <string name="okay">OKAY</string>
+    <string name="travel">Travel</string>
+    <string name="select_category">Select Category</string>
+    <string name="add_categories">Add Categories</string>
+    <string name="delete_category">Delete Category</string>
+    <string name="delete">DELETE</string>
+    <string name="expences">Expences</string>
+    <string name="set_budget">Set Budget</string>
+    <string name="no_transactions">No Transactions</string>
+    <string name="start_adding_a_transactions">Start Adding a transactions</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="monthly_budget">Monthly Budget</string>
+    <string name="set_monthly_budget">Set Monthly Budget</string>
+    <string name="_25k">25k</string>
+    <string name="_50k">50k</string>
+    <string name="_1l">1L</string>
+    <string name="_1_25l">1.25L</string>
+    <string name="_1_75l">1.75L</string>
+    <string name="_2l">2L</string>
+    <string name="_75k">75k</string>
+    <string name="set">SET</string>
+    <string name="amount_cannot_be_empty">Amount cannot be Empty!</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="warning">Are you sure? You want to delete this Category! Doing So, Expenses with this category will be moved to Other Category.</string>
+    <string name="expenses_wallet">Expenses Wallet</string>
+    <string name="add_transactions">Add Transactions</string>
+
+    <string-array name="categoryName">
+        <item>Travel</item>
+        <item>Bills</item>
+        <item>Friends</item>
+        <item>Clothing</item>
+        <item>Food</item>
+        <item>Fuel</item>
+        <item>Health</item>
+        <item>Entertainment</item>
+    </string-array>
+
+
+</resources>

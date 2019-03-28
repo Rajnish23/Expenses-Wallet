@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10"
+        android:layout_marginLeft="@dimen/_10"
+        android:layout_marginRight="@dimen/_10"
+        android:layout_marginBottom="@dimen/_10"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle">
+
+        <TextView
+            style="@style/ll_category"
+            android:text="@string/select_category"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_20s"
+            android:gravity="center"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/lightYellow"
+            android:layout_marginTop="@dimen/_10"
+            android:layout_marginBottom="@dimen/_5"></View>
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <ScrollView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="@dimen/_50">
+             <android.support.v7.widget.RecyclerView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/category_recycler">
+
+             </android.support.v7.widget.RecyclerView>
+
+         </ScrollView>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/_50"
+             android:layout_alignParentBottom="true"
+             android:layout_marginTop="@dimen/_5"
+             android:layout_marginBottom="@dimen/_5"
+             android:text="@string/add_categories"
+             android:id="@+id/add_category"
+             android:gravity="center"
+             android:textSize="@dimen/_20"
+             android:textStyle="bold"
+             android:textColor="@color/primaryBlue"/>
+     </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="DefaultTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
+    <style name="AddExpenceBlueTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryBlue</item>
+    </style>
+
+    <style name="AddExpenceRedTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryRed</item>
+    </style>
+
+    <style name="AddExpencePinkTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryPink</item>
+    </style>
+
+    <style name="AddExpencePurpleTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryPurple</item>
+    </style>
+
+    <style name="AddExpenceJamunTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryJamun</item>
+    </style>
+
+    <style name="AddExpenceSlateTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primarySlateBlue</item>
+    </style>
+
+    <style name="AddExpenceLightBlueTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryLightBlue</item>
+    </style>
+
+    <style name="AddExpenceLightCreamTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryLightCream</item>
+    </style>
+
+    <style name="AddExpenceWallGreenTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryWallGreen</item>
+    </style>
+
+    <style name="AddExpenceParrotGreenTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryParotGreen</item>
+    </style>
+
+    <style name="AddExpenceParootLightTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryParotLightGreen</item>
+    </style>
+
+    <style name="AddExpenceOrangeTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryOrange</item>
+    </style>
+
+    <style name="AddExpenceGrayBlueTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryGrayBlue</item>
+    </style>
+
+    <style name="AddExpenceBrownTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryBrown</item>
+    </style>
+
+    <style name="AddExpencePilotTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryPilot</item>
+    </style>
+
+    <style name="AddExpenceGrayTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/primaryGray</item>
+    </style>
+
+    <style name="amountDialogNumbers">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_50</item>
+        <item name="android:textSize">@dimen/_25s</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:onClick">addNumber</item>
+    </style>
+
+    <style name="amountDialogBottom">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/_15s</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/_10</item>
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="ll_category">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">@dimen/_5</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+
+    </style>
+
+    <style name="categoryTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/_30</item>
+        <item name="android:textSize">@dimen/_12s</item>
+    </style>
+
+    <style name="progress">
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+
+</resources>

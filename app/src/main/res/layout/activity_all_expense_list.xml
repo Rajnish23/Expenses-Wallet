@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.suryavanshi.expenseswallet.Activities.AllExpenseList"
+    android:background="@color/primaryBlue">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/_22s"
+        android:text="@string/all_expenses"/>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_2"
+    android:background="@android:color/white"></View>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="@drawable/btn_white_background"
+        android:layout_margin="@dimen/_20"
+        android:visibility="gone"
+        android:id="@+id/ll_no_transaction"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no_transactions"
+            android:layout_marginTop="@dimen/_40"
+            android:textSize="@dimen/_20s"
+            android:textStyle="bold"
+            android:textColor="@color/primaryRed"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start_adding_a_transactions"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10"/>
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:lottie_rawRes="@raw/sweep_card"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/expense_recycler"
+        android:background="@drawable/rectangle"
+        android:layout_margin="@dimen/_10">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

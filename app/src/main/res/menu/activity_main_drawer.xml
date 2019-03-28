@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_expense"
+            android:icon="@drawable/ic_money_expense"
+            android:title="Expenses" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@mipmap/ic_cat_menu"
+            android:title="Categories" />
+        <item
+            android:id="@+id/nav_week_summary"
+            android:title="Weekly Summary"
+            android:icon="@mipmap/ic_week_sumry"/>
+        <item
+            android:id="@+id/nav_month_summary"
+            android:title="Monthly Summary"
+            android:icon="@mipmap/ic_monthly_sumry"/>
+        <item android:id="@+id/nav_toggle"
+            android:title="Reminder"
+            android:icon="@mipmap/rupee_invoice"
+            app:actionLayout="@layout/toogle_layout"
+            android:checkable="true"
+            app:showAsAction="always"></item>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

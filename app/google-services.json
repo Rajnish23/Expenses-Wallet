@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "501478974843",
+    "firebase_url": "https://expenseswallet.firebaseio.com",
+    "project_id": "expenseswallet",
+    "storage_bucket": "expenseswallet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501478974843:android:b78e6731ff250229",
+        "android_client_info": {
+          "package_name": "com.suryavanshi.expenseswallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501478974843-e6qnme8ve4rolamm2qsbv6nustdsrr6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk8QCTZ1_DmBeejoD45id6gMacLYnBuvk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

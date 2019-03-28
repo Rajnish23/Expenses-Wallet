@@ -1,0 +1,5 @@
+<resources>
+    <style name="progress">
+        <item name="android:progressBackgroundTint">@android:color/black</item>
+    </style>
+</resources>
